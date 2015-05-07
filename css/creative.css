@@ -60,6 +60,11 @@ p {
     background-color: #222;
 }
 
+.bg-stripe {
+	background-image: url("img/bg.png");
+    background-repeat: repeat-y;
+}
+
 .bg-green {
 	color: #fff;
 	background-color: #5E8D00;
