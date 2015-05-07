@@ -60,9 +60,11 @@ p {
     background-color: #222;
 }
 
-.bg-stripe {
-	background-image: url("img/bg.png");
-    background-repeat: repeat-y;
+.bg-diag {
+	background-image: url("../img/bg.png");
+	background-attachment: fixed;
+	background-position: left top;
+    background-repeat: repeat;
 }
 
 .bg-green {
@@ -97,12 +99,7 @@ p {
 
 .bg-white {
 	color: #FF9618;
-	background-color: #fff;
-	padding: 5px 0;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-	behavior: ulr(/PIE/PIE.htc);
+	background-color: #FFFFFF;
 }
 
 .text-faded {
@@ -569,6 +566,11 @@ body {
 	-moz-border-radius-bottomleft:3px;
 	border-top-left-radius:3px;
 	border-bottom-left-radius:3px;
+}
+
+.kpi {
+	max-width: 100%; 
+	height: auto;
 }
 
 .skillbar-bar {
