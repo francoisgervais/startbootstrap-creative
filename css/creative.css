@@ -55,7 +55,7 @@ p {
     line-height: 1.5;
 }
 
-.text-justify {
+. {
     text-align: justify;
     text-justify: inter-word;
 }
@@ -526,11 +526,6 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-p{
-  color:#525252;
-  font-size:12px;
-}
-
 .skillbar {
 	position:relative;
 	display:block;
@@ -557,10 +552,8 @@ p{
 	position:absolute;
 	top:0;
 	left:0;
-width:110px;
 	font-weight:bold;
-	font-size:13px;
-	color:#ffffff;
+	color:#fff;
 	background:#6adcfa;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:4px;
@@ -584,6 +577,11 @@ width:110px;
 	border-bottom-left-radius:3px;
 }
 
+.kpi {
+	max-width: 100%; 
+	height: auto;
+}
+
 .skillbar-bar {
 	height:35px;
 	width:0px;
@@ -600,6 +598,6 @@ width:110px;
 	font-size:11px;
 	height:35px;
 	line-height:35px;
-	color:#ffffff;
+	color:#444;
 	color:rgba(0, 0, 0, 0.4);
 }
