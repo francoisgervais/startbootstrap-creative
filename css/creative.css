@@ -554,7 +554,7 @@ body {
 	left:0;
 	font-weight:bold;
 	color:#fff;
-	align: left;
+	text-align: left;
 	background:#6adcfa;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:4px;
