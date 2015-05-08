@@ -568,6 +568,7 @@ body {
 	background:rgba(0, 0, 0, 0.1);
 	padding:0 20px;
 	height:35px;
+	width:110px;
 	line-height:35px;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:3px;
