@@ -185,7 +185,7 @@
             </div>
 			<div class="col-sm-offset-1 col-sm-10">
 				<h3 class="section-heading">Software & frameworks</h3>
-				<div class="skillbar clearfix wow" data-percent="95%">
+				<div class="skillbar clearfix " data-percent="95%">
 					<div class="skillbar-title" style="background: #FF9618;"><span>Excel</span></div>
 					<div class="skillbar-bar" style="background: blue;"></div>
 					<div class="skill-bar-percent">95%</div>
@@ -229,10 +229,12 @@
 				</div>
 				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 				<script>
-					jQuery('.skillbar').each(function(){
-						jQuery(this).find('.skillbar-bar').animate({
-						width:jQuery(this).attr('data-percent')
-						},2000);
+					jQuery(document).ready(function(){
+						jQuery('.skillbar').each(function(){
+							jQuery(this).find('.skillbar-bar').animate({
+								width:jQuery(this).attr('data-percent')
+							},6000);
+						});
 					});
 				</script>
 				</div>
