@@ -10,3 +10,4 @@
 * [Skillbar js/css from codepen](http://codepen.io/ugross/pen/zAitb)
 * Landing page chart made with [LucidChart](https://www.lucidchart.com)
 * Continous staging by [dploy.io](http://dploy.io/)
+* jQuery testing on [jsfiffle](https://jsfiddle.net/)
