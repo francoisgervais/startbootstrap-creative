@@ -1,4 +1,4 @@
-/*!
+/*! 
  * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -16,12 +16,16 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #FF9618;
     border-width: 3px;
 }
 
 hr.light {
     border-color: #fff;
+}
+
+hr.purple {
+	border-color: #8A25E7;
 }
 
 a {
@@ -51,13 +55,60 @@ p {
     line-height: 1.5;
 }
 
+. {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #FF9618;
 }
 
 .bg-dark {
     color: #fff;
     background-color: #222;
+}
+
+.bg-diag {
+	background-image: url("../img/bg.png");
+	background-attachment: fixed;
+	background-position: left top;
+    background-repeat: repeat;
+}
+
+.bg-green {
+	color: #fff;
+	background-color: #5E8D00;
+	padding: 5px 0;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	behavior: ulr(/PIE/PIE.htc);
+}
+
+.bg-purple {
+	color: #fff;
+	background-color: #6706BF;
+	padding: 5px 0;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	behavior: ulr(/PIE/PIE.htc);
+}
+
+.bg-blue {
+	color: #fff;
+	background-color: #0479B8;
+	padding: 5px 0;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	behavior: ulr(/PIE/PIE.htc);
+}
+
+.bg-white {
+	color: #FF9618;
+	background-color: #FFFFFF;
 }
 
 .text-faded {
@@ -178,7 +229,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header.e.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -220,6 +271,8 @@ header .header-content .header-content-inner p {
         position: absolute;
         top: 50%;
         padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
 
@@ -471,4 +524,82 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	font-weight:bold;
+	color:#fff;
+	text-align: left;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	width:240px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.kpi {
+	max-width: 100%; 
+	height: auto;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#444;
+	color:rgba(0, 0, 0, 0.4);
 }
